@@ -1,0 +1,13 @@
+name: mri_cnn
+channels:
+- anaconda
+- conda-forge
+dependencies:
+- python=3.6
+- notebook>=5
+- numpy=1.14.0
+- scipy>=1
+- caffe=1.0
+- pydicom=0.9.9
+- matplotlib>=2
+- seaborn>=0.8
